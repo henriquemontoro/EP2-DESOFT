@@ -29,5 +29,12 @@ def calcula_pontos_regra_simples(dados):
     }
     for dado in dados:
         pontos[dado] += dado
-
     return pontos
+
+def calcula_pontos_soma(dados):
+    soma = 0
+    for dado in dados:
+        soma += dado
+    return soma
+
+def calcula_pontos_sequencia_baixa()
