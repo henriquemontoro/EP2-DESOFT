@@ -19,6 +19,8 @@ cartela_de_pontos = {
     }
 }
 
+imprime_cartela(cartela_de_pontos)
+
 for rodada in range(12):
     dados_rolados = rolar_dados(5)
     dados_guardados = []
