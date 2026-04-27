@@ -153,5 +153,5 @@ def imprime_cartela(cartela):
 def rolar(dados_guardados):
     novosdados = []
     for x in range(5 - len(dados_guardados)):
-        novos.append(random.randint(1, 6))
+        novosdados.append(random.randint(1, 6))
     return novosdados
