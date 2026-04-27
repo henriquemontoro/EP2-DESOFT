@@ -133,9 +133,6 @@ def faz_jogada(dados, categoria, cartela_de_pontos):
     return cartela_de_pontos
 
 
-
-
-
 def imprime_cartela(cartela):
     print("Cartela de Pontos:")
     print("-"*25)    
@@ -152,3 +149,9 @@ def imprime_cartela(cartela):
         else:
             print(f"| {i}: {filler}|    |")
     print("-"*25)
+
+def rolar(dados_guardados):
+    novosdados = []
+    for x in range(5 - len(dados_guardados)):
+        novos.append(random.randint(1, 6))
+    return novosdados
